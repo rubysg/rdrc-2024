@@ -1,0 +1,19 @@
+{% assign title = page.title | append: " | " | append: site.title %}
+{% assign description = page.description | default: site.description %}
+{% assign url = page.url | absolute_url %}
+{% assign image = "/assets/images/open-graph.png" | absolute_url %}
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>{{ title }}</title>
+
+<meta name="description" content="{{ description }}">
+<meta name="canonical" href="{{ url }}">
+
+<meta name="og:title" content="{{ title }}">
+<meta name="og:description" content="{{ description }}">
+<meta name="og:image" content="{{ image }}">
+<meta name="og:url" content="{{ url }}">
+<meta name="og:site_name" content="{{ site.title }}">
+<meta property="og:locale" content="en_SG" />
