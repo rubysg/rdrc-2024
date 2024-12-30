@@ -1,0 +1,29 @@
+- name: "Kang Sheng"
+  role: "Sponsorships"
+  url: "https://www.taykangsheng.com/"
+  image: "https://avatars.githubusercontent.com/u/10722197?v=4"
+
+- name: "Onur Ozer"
+  role: "Marketing"
+  url: "https://onurozer.me/"
+  image: "https://avatars.githubusercontent.com/u/55616?v=4"
+
+- name: "Sam Hon"
+  role: "Organisation"
+  url: "https://github.com/coffeesam"
+  image: "https://avatars.githubusercontent.com/u/297375?v=4"
+
+- name: "Ted Johansson"
+  role: "Lead"
+  url: "https://github.com/Drenmi"
+  image: "https://avatars.githubusercontent.com/u/5259935?v=4"
+
+- name: "Yabing"
+  role: "Logistics"
+  url: "https://github.com/peanutyabing"
+  image: "https://avatars.githubusercontent.com/u/48173359?v=4"
+
+- name: "Zong Han"
+  role: "Intern"
+  url: "https://www.zonghan.dev/"
+  image: "https://avatars.githubusercontent.com/u/10085133?v=4"

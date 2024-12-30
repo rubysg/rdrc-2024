@@ -1,7 +1,8 @@
 url: "https://2024.reddotrubyconf.com"
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "Red Dot Ruby Conference 2024" # the name of your site, e.g. ACME Corp.
+title: "Red Dot Ruby Conference 2024"
 description: "A gem-packed, two-day single-track Ruby conference in sunny Singapore."
+about: " Red Dot Ruby Conference is a not-for-profit event dedicated to fostering a vibrant community of Ruby developers and advancing the Ruby ecosystem in Singapore and Asia. Since 2011, the conference is organised entirely by a group of volunteers."
 
 permalink: /:title/
 

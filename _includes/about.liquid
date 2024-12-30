@@ -1,0 +1,27 @@
+<div id="about" class="relative pb-8 text-center bg-rose-100">
+  <div class="container px-8 pt-16 mx-auto mb-16 lg:px-4">
+    <h1 class="text-5xl font-bold text-rose-800">About</h1>
+    <div class="max-w-2xl pt-4 mx-auto text-rose-950">
+      <p>
+        {{ site.about }}
+      </p>
+    </div>
+    <div class="flex flex-col py-8 md:flex-row md:justify-center md:items-center">
+      <ul role="list" class="grid max-w-2xl grid-cols-2 mx-auto text-center gap-x-8 gap-y-8 sm:grid-cols-3 lg:mx-0 lg:max-w-none lg:grid-cols-6">
+        {% assign sorted_team = site.data.team | sort: "name" %}
+        {% for member in sorted_team %}
+          <li>
+            <a href="{{ member.url }}">
+              <img
+                class="w-16 h-16 mx-auto border-2 rounded-full border-rose-200"
+                src="{{ member.image }}"
+                alt="{{ member.name }}">
+              <h3 class="mt-4 text-base font-semibold">{{ member.name }}</h3>
+              <p class="text-sm">{{ member.role }}</p>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
