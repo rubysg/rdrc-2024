@@ -1,0 +1,141 @@
+day1:
+  - time: "8:00 AM"
+    title: "Registration opens"
+    speaker: null
+    image: null
+
+  - time: "9:45 AM"
+    title: "Opening address"
+    speaker: null
+    image: null
+
+  - time: "10:00 AM"
+    title: "Matz' keynote"
+    speaker: 'Yukihiro "Matz" Matsumoto'
+    image: "https://github.com/matz.png"
+
+  - time: "10:50 AM"
+    title: "2,000 Engineers, 2 Millions Lines of Code: The History of a Rails Monolith"
+    speaker: "Cristian Planas"
+    image: "https://pbs.twimg.com/profile_images/1612162777635856389/Y7ed0sKY_400x400.jpg"
+
+  - time: "11:30 AM"
+    title: "Break"
+    speaker: null
+    image: null
+
+  - time: "11:50 AM"
+    title: "Introduction to Cybersecurity with Ruby"
+    speaker: "Hiroshi Shibata"
+    image: "https://avatars.githubusercontent.com/u/12301?v=4"
+
+  - time: "12:40 PM"
+    title: "Lunch"
+    speaker: null
+    image: null
+
+  - time: "1:30 PM"
+    title: "Connecting Dots: Rails Girls & RubyKaigi"
+    speaker: "Eriko Sugiyama"
+    image: "https://avatars.githubusercontent.com/u/40660382?v=4"
+
+  - time: "2:10 PM"
+    title: "Leveling Up Developer Tooling For The Modern Rails & Hotwire Era"
+    speaker: "Marco Roth"
+    image: "https://github.com/marcoroth.png"
+
+  - time: "3:00 PM"
+    title: "Break"
+    speaker: null
+    image: null
+
+  - time: "3:20 PM"
+    title: "1 Engineer, 300 Thousand Users"
+    speaker: "Adrian Goh"
+    image: "https://github.com/adriangohjw.png"
+
+  - time: "4:00 PM"
+    title: "Rack From Scratch!"
+    speaker: "Hieu Nguyen"
+    image: "https://github.com/hieuk09.png"
+
+  - time: "4:40 PM"
+    title: "Livin' La Vida Hanami"
+    speaker: "Tim Riley"
+    image: "https://pbs.twimg.com/media/GJl6jJ9XgAAdUB1?format=jpg&name=medium"
+
+  - time: "5:30 PM"
+    title: "End of Day 1"
+    speaker: null
+    image: null
+
+day2:
+  - time: "8:00 AM"
+    title: "Doors open"
+    speaker: null
+    image: null
+
+  - time: "9:30 AM"
+    title: "Ruby on the Modern JVM with JRuby"
+    speaker: "Charles Oliver Nutter"
+    image: "https://github.com/headius.png"
+
+  - time: "10:10 AM"
+    title: "Tight Genes: Intro to Genetic Algorithms"
+    speaker: "Dave Aronson"
+    image: "https://www.codosaur.us/assets/img/2020-02-07-Speaking-at-JSConfHI-HEAD-N-SHOULDERS-SMALL.jpg"
+
+  - time: "10:50 AM"
+    title: "Break"
+    speaker: null
+    image: null
+
+  - time: "11:10 AM"
+    title: "Revisiting Patterns of Error Handling in Ruby"
+    speaker: "Giovanni Sakti"
+    image: "https://media.licdn.com/dms/image/C5603AQFTYvUASDPScw/profile-displayphoto-shrink_800_800/0/1640562146338"
+
+  - time: "11:50 AM"
+    title: "How Not to Make Your DSL Terrible"
+    speaker: "Okura Masafumi"
+    image: "https://github.com/okuramasafumi.png"
+
+  - time: "12:30 PM"
+    title: "Lunch"
+    speaker: null
+    image: null
+
+  - time: "1:30 PM"
+    title: "Writing an Interpreter in Ruby"
+    speaker: "Mario Arias"
+    image: "https://media.licdn.com/dms/image/D5603AQHqCWi-9iYu5A/profile-displayphoto-shrink_400_400/0/1677910795703"
+
+  - time: "2:20 PM"
+    title: "Scaling RubyGems.org to 1 Trillion downloads"
+    speaker: "Colby Swandale"
+    image: "https://github.com/colby-swandale.png"
+
+  - time: "3:00 PM"
+    title: "Break"
+    speaker: null
+    image: null
+
+  - time: "3:20 PM"
+    title: "Ruby & Party Politics: How to Quickly Refactor a Political Party's Election System"
+    speaker: "Mu-Fan Teng"
+    image: "https://pbs.twimg.com/profile_images/1792112104247635968/12VEt0pt_400x400.jpg"
+
+  - time: "4:00 PM"
+    title: "Speeding Up Delegate Methods"
+    speaker: "Aaron Patterson"
+    image: "https://avatars.githubusercontent.com/u/3124?v=4"
+
+  - time: "5:00 PM"
+    title: "Closing address"
+    speaker: null
+    image: null
+
+  - time: "5:30 PM"
+    title: "End of Day 2"
+    speaker: null
+    image: null
