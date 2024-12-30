@@ -1,11 +1,6 @@
 ---
 ---
 
-/* keep the lines above */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer utilities {
-}

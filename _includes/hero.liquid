@@ -1,0 +1,25 @@
+<section class="hero bg-[#effffb]">
+  <div class="container mx-auto px-8 lg:px-4">
+    <div class="flex flex-wrapm pt-24 pb-12 lg:mb-0">
+      <div class="w-full lg:w-8/12">
+        <div class="lg:pt-20 mb-8">
+          <img
+            class="h-48 mb-12 lg:pb-0 lg:h-48"
+            src="/assets/images/logo.png"
+            alt="Red Dot Ruby Conference Logo">
+          <h1 class="text-4xl lg:text-7xl font-bold text-rose-500">{{ site.data.event.title }}</h1>
+          <a
+            target="_blank"
+            class="decoration-dotted underline underline-offset-8"
+            href="http://web.archive.org/web/20240917204132/https://www.google.com/maps/dir//SingPost+Auditorium,+10+Eunos+Rd+8,+%2305-30,+SingPost+Centre,+408600/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x31da190058e45f7b:0x9e8e0ec8d5dab5f!3e0?sa=X&amp;ved=1t:3747&amp;ictx=111">
+            <p class="text-black text-lg lg:text-xl mb-2 mt-4 font-bold">🇸🇬 {{ site.data.event.location.venue }},{{ site.data.event.date.start | date: "%d" }}-{{ site.data.event.date.end | date: "%d %b %Y" }}</p>
+          </a>
+        </div>
+        <img
+          class="max-sm:hidden w-48 mb-12"
+          src="/assets/images/wavy.png"
+          alt="Wavy">
+      </div>
+    </div>
+  </div>
+</section>

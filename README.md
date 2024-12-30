@@ -1,4 +1,4 @@
-# Red Dot Ruby Conf 2024 website
+# Red Dot Ruby Conf 2024 Website
 
 Source code for [2024.reddotrubyconf.com](https://2024.reddotrubyconf.com/).
 
