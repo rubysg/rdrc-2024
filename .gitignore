@@ -1,0 +1,12 @@
+# dotenv environment variables file
+.env
+
+# Mac files
+.DS_Store
+
+# Node
+node_modules/
+
+# Jekyll
+_site/
+.jekyll-cache/
