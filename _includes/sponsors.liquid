@@ -1,0 +1,46 @@
+<section class="sponsors">
+  <div class="relative pb-8 text-center bg-indigo-100">
+    <div class="container px-8 pt-16 mx-auto mb-16 lg:px-0">
+      <h1 class="text-5xl font-bold text-indigo-800">Sponsors</h1>
+
+      <div class="max-w-2xl pt-4 pb-8 mx-auto text-indigo-950">
+        <p>Our sponsorship packages are a great opportunity to engage with some of the brightest minds in the ruby community through physical booths and digital media surfaces.
+        </p>
+      </div>
+
+      <div class="mt-2 mx-auto w-7xl p-8 rounded-lg bg-slate-50 [box-shadow:0_40px_0_0_#a5b4fc,0_15px_0_0_#a5b4fc] border-4 border-indigo-800">
+        <div class="">
+          {% for sponsor in site.data.sponsors.platinum %}
+            <div class="flex flex-col items-center justify-center my-8 lg:flex-row gap-x-8">
+              <a href="{{ sponsor.url }}" class="block pb-4 w-72 shrink-0">
+                <img
+                  class=""
+                  src="{{ sponsor.logo }}"
+                  alt="{{ sponsor.name }}">
+              </a>
+              <div class="lg:text-left">{{ sponsor.description }}</div>
+            </div>
+          {% endfor %}
+        </div>
+        <hr>
+        <h3 class="m-4 mt-8 text-3xl font-bold">Ruby Friends</h3>
+        <div class="flex flex-wrap justify-around">
+          <div class="flex flex-wrap items-center justify-center">
+            {% for friend in site.data.sponsors.friends %}
+              <div class="flex flex-col items-center m-8 lg:mx-16 lg:mt-8">
+                <img
+                  class="w-24 h-24 mb-4 border-4 border-indigo-400 rounded-full"
+                  src="{{ friend.image }}"
+                  alt="{{ friend.name }}">
+                <h3 class="text-xl font-bold text-indigo-800 text-start">{{ friend.name }}</h3>
+                <p class="text-xl text-center text-neutral-800">{{ friend.title }}</p>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
